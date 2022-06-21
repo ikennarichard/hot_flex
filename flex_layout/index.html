@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            font-family: Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            width: 600px;
+        }
+
+        button {
+            font-family: Roboto, sans-serif;
+            border: none;
+            border-radius: 8px;
+            background: #eee;
+            padding: 8px 16px;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        .header,
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+        }
+
+        .footer {
+            background: #eee;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 16px;
+        }
+
+        input {
+            border: 1px solid #ddd;
+            border-radius: 16px;
+            padding: 8px 24px;
+            width: 400px;
+            margin-bottom: 16px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <!-- header tab -->
+    <div class="header">
+        <ul class="left-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="right-links">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- content tab -->
+    <div class="content">
+        <img src="./logo.png" alt="">
+        <div class="input">
+            <input type="text">
+        </div>
+        <div class="buttons">
+            <button>Do the thing!</button>
+            <button>Do the other thing!</button>
+        </div>
+    </div>
+
+    <!-- footer tab -->
+    <div class="footer">
+        <!-- left link -->
+        <ul class="left-links">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+        </ul>
+        <!-- right link -->
+        <ul class="right-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

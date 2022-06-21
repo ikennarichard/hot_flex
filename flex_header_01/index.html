@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .header {
+            font-family: monospace;
+            background-color: papayawhip;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 900;
+            color: tomato;
+            background-color: white;
+            padding: 4px 32px;
+        }
+
+
+        ul {
+            /* removes the dot in the lines */
+            list-style-type: none;
+            display: flex;
+            gap: 8px;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        a {
+            font-size: 22px;
+            background-color: white;
+            padding: 8px;
+            /* removes lines under the links */
+            text-decoration: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Flex Header</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-links">
+            <ul>
+                <li><a href="#">ONE</a></li>
+                <li><a href="#">TWO</a></li>
+                <li><a href="#">THREE</a></li>
+            </ul>
+        </div>
+        <div class="logo">LOGO</div>
+        <div class="right-links">
+            <ul>
+                <li><a href="#">FOUR</a></li>
+                <li><a href="#">FIVE</a></li>
+                <li><a href="#">SIX</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
